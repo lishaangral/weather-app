@@ -14,19 +14,26 @@
 
 .weather_container {
     color: white;
+
 }
 
 .temp {
     font-size: 4.5rem;
+    margin-left: 1.3rem;
 }
 
 .time_location {
     font-size: 2rem;
+    margin-left: 1.3rem;
 }
 
-.condition {
-    margin: 0.5rem;
-    margin-left: 0.2rem;
+.condition > p {
+    margin-left: 1.3rem;
+    font-size: 1.3rem;
+}
+
+img {
+    height: 5rem;
 }
 
 nav {
@@ -41,7 +48,9 @@ nav {
     color: white;
     background-color: transparent;
     font-size: 1.1rem;
-    border-bottom: 2px solid white;
+    border: 2px solid white;
+    border-radius: 10%;
+    text-align: center;
 }
 
 nav form button {
@@ -52,5 +61,4 @@ nav form button {
     outline: none;
     border: none;
     cursor: pointer;
-
 }
