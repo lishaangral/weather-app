@@ -42,7 +42,7 @@ function updateDetails(temp, locationName, time, condition , icon) {
 
   temperatureField.innerText = `${temp}°C`;
   locationField.innerText = locationName;
-  dateandTimeField.innerText = `${splitDate} ${currentDay} ${splitTime}`;
+  dateandTimeField.innerText = `${splitDate} ${currentDay} ${splitTime} hrs`;
   conditionField.innerText = condition;
   iconField.src = `https:${icon}`;
 
