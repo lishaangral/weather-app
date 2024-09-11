@@ -15,7 +15,7 @@ Welcome to the Weather App repository! This project is a simple yet powerful web
 
 ## Features
 - Get current weather details for any city or location
-- View temperature, weather conditions, humidity, wind speed, and more
+- View temperature, weather conditions, local time and you can include features to view humidity, wind speed, and more
 - Clean and responsive user interface
 - Supports multiple locations by city or geographic coordinates
 
@@ -46,7 +46,7 @@ You can try the live version of the app here:
 
 ## Usage
 1. Enter the name of a city or use your current location.
-2. The app will display weather information like temperature, wind speed, humidity, and weather description.
+2. The app will display weather information like temperature, local time, and weather description.
 3. You can search for multiple locations and compare the weather in different areas.
 
 ## Contributing
